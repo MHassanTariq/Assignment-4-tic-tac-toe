@@ -228,7 +228,7 @@ public class View extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     void CallingAddMove(JButton button, int row, int col){
-        if(button.getText().equals(""))
+        if(button.getText().equals("") && jLabel2.getText().equals("DRAW"))
         {
             if(turn == 1)
             {
